@@ -6,12 +6,14 @@ import Skills from './components/Skills'
 
 export default function App() {
   return (
-    <main className='bg-slate-900 text-gray-400'>
-        <NavBar />
-        <Hero />
-        <Skills />
-        <Projects />
-        <Contact />
-    </main>
+    <>
+      <main className='bg-slate-900 text-gray-400 overflow-y-hidden'>
+          <NavBar />
+          <Hero />
+          <Projects />
+          <Skills />
+          <Contact />
+      </main>
+    </>
   )
 }
