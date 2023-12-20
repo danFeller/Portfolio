@@ -12,7 +12,6 @@ import Express from '../assets/Express.svg'
 import GitHub from '../assets/GitHub.svg'
 import MongoDB from '../assets/MongoDB.svg'
 
-
 const Skills = () => {
     return(
         <section id="Skills" className='m-16 w-full mx-auto px-0.5 xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
@@ -34,7 +33,7 @@ const Skills = () => {
 
 
             <div className='my-4 flex flex-row justify-center'>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-3xl text-center px-8 py-2 my-6 bg-green-400 text-white hover:bg-green-500 hover:scale-110 font-semibold rounded-md shadow-lg transition duration-300">My Resume</a>
+                <a href="/resume.pdf" download="Daniel Feller - Resume 2024.pdf" className="text-3xl text-center px-8 py-2 my-6 bg-green-400 text-white hover:bg-green-500 hover:scale-110 font-semibold rounded-md shadow-lg transition duration-300">My Resume</a>
             </div>
         </section>
     )
