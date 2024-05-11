@@ -3,7 +3,7 @@ const NavBar = () => {
         <header className="bg-gray-800 fixed top-0 left-0 right-0 bg-opacity-90 z-50">
             <nav className="flex gap-9 justify-between w-full mx-auto px-0.5 xsm:max-w-screen-xsm sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
                 <div className="flex gap-6 opa">
-                    <a href='#' className="text-2xl text-white font-bold px-1 py-2 hover:text-gray-200 xsm:w-44">Daniel Feller</a>
+                    <a href='#' className="text-2xl text-white font-bold px-1 py-2 hover:text-gray-200 xsm:w-44 2xsm:w-20">Daniel Feller</a>
                     <li className="flex gap-4 my-auto p-3">
                         <ul>
                             <a href="#Projects" className="hover:text-gray-200 font-semibold">Projects</a>
